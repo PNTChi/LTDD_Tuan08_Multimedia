@@ -16,7 +16,7 @@ class _Bai4AudioPlayerScreenState extends State<Bai4AudioPlayerScreen> {
   Duration _position = Duration.zero;
 
   final List<String> _songs = ['sample1.mp3', 'sample2.mp3', 'sample3.mp3'];
-  final List<String> _titles = ['Gió Cuốn Em Đi', 'Ánh Nắng Của Anh', 'Chờ Ngày Mưa Tan'];
+  final List<String> _titles = ['Bài hát 1', 'Bài hát 2', 'Bài hát 3'];
   final List<String> _artists = ['Ca sĩ A', 'Ca sĩ B', 'Ca sĩ C'];
 
   @override
@@ -73,7 +73,7 @@ class _Bai4AudioPlayerScreenState extends State<Bai4AudioPlayerScreen> {
     return Scaffold(
       extendBodyBehindAppBar: true,
       appBar: AppBar(
-        title: const Text('NOW PLAYING', style: TextStyle(fontSize: 14, letterSpacing: 2, color: Colors.white70)),
+        title: const Text('PLAY MUSIC', style: TextStyle(fontSize: 14, letterSpacing: 2, color: Colors.white70)),
         centerTitle: true,
         backgroundColor: Colors.transparent,
         elevation: 0,
