@@ -5,10 +5,10 @@ import 'package:permission_handler/permission_handler.dart';
 import 'package:video_player/video_player.dart';
 
 class Bai1MediaPickerScreen extends StatefulWidget {
-  const Bai1MediaPickerScreen({super.key}); // Đã sửa lỗi Info
+  const Bai1MediaPickerScreen({super.key});
 
   @override
-  State<Bai1MediaPickerScreen> createState() => _Bai1MediaPickerScreenState(); // Đã sửa lỗi Info
+  State<Bai1MediaPickerScreen> createState() => _Bai1MediaPickerScreenState();
 }
 
 class _Bai1MediaPickerScreenState extends State<Bai1MediaPickerScreen> {

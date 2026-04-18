@@ -4,10 +4,10 @@ import 'package:image_picker/image_picker.dart';
 import 'package:permission_handler/permission_handler.dart';
 
 class Bai2PhotoCaptureScreen extends StatefulWidget {
-  const Bai2PhotoCaptureScreen({super.key}); // Đã sửa lỗi Info
+  const Bai2PhotoCaptureScreen({super.key});
 
   @override
-  State<Bai2PhotoCaptureScreen> createState() => _Bai2PhotoCaptureScreenState(); // Đã sửa lỗi Info
+  State<Bai2PhotoCaptureScreen> createState() => _Bai2PhotoCaptureScreenState();
 }
 
 class _Bai2PhotoCaptureScreenState extends State<Bai2PhotoCaptureScreen> {
@@ -56,7 +56,7 @@ class _Bai2PhotoCaptureScreenState extends State<Bai2PhotoCaptureScreen> {
 
 class FullScreenImage extends StatelessWidget {
   final File imageFile;
-  const FullScreenImage({super.key, required this.imageFile}); // Đã sửa lỗi Info
+  const FullScreenImage({super.key, required this.imageFile});
 
   @override
   Widget build(BuildContext context) {
