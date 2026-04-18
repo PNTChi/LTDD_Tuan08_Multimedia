@@ -5,10 +5,10 @@ import 'package:permission_handler/permission_handler.dart';
 import 'package:video_player/video_player.dart';
 
 class Bai3VideoRecorderScreen extends StatefulWidget {
-  const Bai3VideoRecorderScreen({super.key}); // Đã sửa lỗi Info
+  const Bai3VideoRecorderScreen({super.key});
 
   @override
-  State<Bai3VideoRecorderScreen> createState() => _Bai3VideoRecorderScreenState(); // Đã sửa lỗi Info
+  State<Bai3VideoRecorderScreen> createState() => _Bai3VideoRecorderScreenState();
 }
 
 class _Bai3VideoRecorderScreenState extends State<Bai3VideoRecorderScreen> {
